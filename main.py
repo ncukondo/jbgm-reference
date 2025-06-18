@@ -71,12 +71,12 @@ with open("output/qa_data.md", "w", encoding="utf-8") as f:
             for question in sub_category["questions"]:
                 f.write(f"### {question['question']}\n\n")
                 f.write(f"{question['answer']}\n\n")
-                f.write(f"[詳細ページ]({question['url']})\n\n")
+                f.write(f"- [参照元]({question['url']})\n")
                 if question["links_in_dl"]:
-                    f.write("関連リンク:\n")
+                    f.write("- 関連リンク\n")
                     for link in question["links_in_dl"]:
-                        f.write(f"- [{link['title']}]({link['url']})\n")
-                    f.write("\n")
+                        f.write(f"    - [{link['title']}]({link['url']})\n")
+                f.write("\n")
 
 # 6. データをDataFrameに変換
 rows = []
