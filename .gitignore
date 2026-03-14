@@ -11,3 +11,7 @@ wheels/
 
 # output directories
 output/
+
+# downloaded PDFs and extracted text (intermediate files)
+pdfs/
+texts/

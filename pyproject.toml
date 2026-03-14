@@ -1,11 +1,12 @@
 [project]
-name = "scrape-q-and-a"
+name = "jbgm-reference"
 version = "0.1.0"
-description = "Add your description here"
+description = "jbgm.org の総合診療専門医制度情報を収集・整理するツール"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "bs4>=0.0.2",
     "pandas>=2.3.0",
+    "pymupdf>=1.25.0",
     "requests>=2.32.4",
 ]
