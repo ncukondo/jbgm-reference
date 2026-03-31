@@ -8,7 +8,7 @@ import os
 import shutil
 import zipfile
 
-CLAUDE_REFERENCE_DIR = ".claude/skills/jbgm-reference/reference"
+CLAUDE_REFERENCE_DIR = ".claude/skills/jbgm-reference/references"
 CLAUDE_SKILL_MD = ".claude/skills/jbgm-reference/SKILL.md"
 DIST_DIR = "dist"
 CHATGPT_SKILL_DIR = os.path.join(DIST_DIR, "jbgm-reference")

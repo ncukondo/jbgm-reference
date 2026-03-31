@@ -5,7 +5,7 @@ import os
 import re
 import shutil
 
-REFERENCE_DIR = ".claude/skills/jbgm-reference/reference"
+REFERENCE_DIR = ".claude/skills/jbgm-reference/references"
 TEXTS_DIR = "texts"
 OUTPUT_DIR = "output"
 
